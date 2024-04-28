@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace YLADotNetCore.ConsoleApp.Services
 {
-    internal static class ConnectionString
+    public static class ConnectionString
     {
         public static SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
