@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Data;
 using System.Data.SqlClient;
-using YLADotNetCore.ConsoleApp;
+using YLADotNetCore.ConsoleApp.EFCoreExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -30,10 +30,17 @@ Console.WriteLine("Hello, World!");
 //    Console.WriteLine("Blog Content", dr["BlogContent"]);
 //    Console.WriteLine("_____________________________");
 //}
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
-//adoDotNetExample.Read(); // Read
-//adoDotNetExample.Create("Title One", "Author One", "Content One");// Create
-//adoDotNetExample.Update("1007", "Update Title", "Update Author", "Update Content"); //Update
-adoDotNetExample.Delete(1006); // Delete
-adoDotNetExample.Edit(1007);// Edit
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+////adoDotNetExample.Read(); // Read
+////adoDotNetExample.Create("Title One", "Author One", "Content One");// Create
+////adoDotNetExample.Update("1007", "Update Title", "Update Author", "Update Content"); //Update
+//adoDotNetExample.Delete(1006); // Delete
+//adoDotNetExample.Edit(1007);// Edit
+
+
+
+EfCoreExample efCoreExample = new EfCoreExample();
+efCoreExample.Run();
+//DapperExample dapper = new DapperExample();
+//dapper.Run();
 Console.ReadKey();

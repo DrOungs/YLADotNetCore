@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 
-namespace YLADotNetCore.ConsoleApp
+namespace YLADotNetCore.ConsoleApp.AdoDotNetExamples
 {
     internal class AdoDotNetExample
     {
@@ -38,31 +38,31 @@ namespace YLADotNetCore.ConsoleApp
         }
         public void Edit(int id) //Edit
         {
-           
-                SqlConnection connection = new SqlConnection(_stringBuilder.ConnectionString);
-                connection.Open();
-                Console.WriteLine("Connection open.");
 
-                string query = "select * from tbl_blog where BlogId=@BlogId";
-                SqlCommand cmd = new SqlCommand(query, connection);
-                      cmd.Parameters.AddWithValue("@BlogId", id);
+            SqlConnection connection = new SqlConnection(_stringBuilder.ConnectionString);
+            connection.Open();
+            Console.WriteLine("Connection open.");
+
+            string query = "select * from tbl_blog where BlogId=@BlogId";
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@BlogId", id);
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                sqlDataAdapter.Fill(dt);
-                connection.Close();
-            if (dt.Rows.Count==0)
+            DataTable dt = new DataTable();
+            sqlDataAdapter.Fill(dt);
+            connection.Close();
+            if (dt.Rows.Count == 0)
             {
                 Console.WriteLine("No data found.");
                 return;
             }
             DataRow dr = dt.Rows[0];
-                    Console.WriteLine("BlogId =>" + dr["BlogId"]);
-                    Console.WriteLine("BlogTitle =>" + dr["BlogTitle"]);
-                    Console.WriteLine("BlogAuthor =>" + dr["BlogAuthor"]);
-                    Console.WriteLine("BlogContent =>" + dr["BlogContent"]);
-                    Console.WriteLine("_____________________________");
-        
-         
+            Console.WriteLine("BlogId =>" + dr["BlogId"]);
+            Console.WriteLine("BlogTitle =>" + dr["BlogTitle"]);
+            Console.WriteLine("BlogAuthor =>" + dr["BlogAuthor"]);
+            Console.WriteLine("BlogContent =>" + dr["BlogContent"]);
+            Console.WriteLine("_____________________________");
+
+
         }
         public void Create(string title, string author, string content) //Create
         {
@@ -84,12 +84,12 @@ namespace YLADotNetCore.ConsoleApp
             int result = cmd.ExecuteNonQuery();
             connection.Close();
             string message = result > 0 ? "Saving Successful." : "Saving Failed.";
-       
+
             Console.WriteLine(message);
         }
-        public void Update(int id,string title, string author, string content) //Update
+        public void Update(int id, string title, string author, string content) //Update
         {
-            SqlConnection con= new SqlConnection(_stringBuilder.ConnectionString);
+            SqlConnection con = new SqlConnection(_stringBuilder.ConnectionString);
             con.Open();
 
             string query = @"UPDATE [dbo].[Tbl_Blog]

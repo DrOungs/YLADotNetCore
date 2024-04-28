@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.RestApi", "YLADotNetCore.RestApi\YLADotNetCore.RestApi.csproj", "{FAE49347-5091-4511-9122-FB5811633D8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{662B37C6-222F-493F-B354-535EDFABDEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662B37C6-222F-493F-B354-535EDFABDEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662B37C6-222F-493F-B354-535EDFABDEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE49347-5091-4511-9122-FB5811633D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE49347-5091-4511-9122-FB5811633D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE49347-5091-4511-9122-FB5811633D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE49347-5091-4511-9122-FB5811633D8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
