@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLADotNetCore.RestApi", "YLADotNetCore.RestApi\YLADotNetCore.RestApi.csproj", "{FAE49347-5091-4511-9122-FB5811633D8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.TestingWebAPI", "YLADotNetCore.TestingWebAPI\YLADotNetCore.TestingWebAPI.csproj", "{CEBEA867-4D94-4358-AC1B-47AF58774162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLADotNetCore.TestingWebAPI", "YLADotNetCore.TestingWebAPI\YLADotNetCore.TestingWebAPI.csproj", "{CEBEA867-4D94-4358-AC1B-47AF58774162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.Shared", "YLADotNetCore.Shared\YLADotNetCore.Shared.csproj", "{622BCD4B-C1B3-4F79-AD64-3829F0E048AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{CEBEA867-4D94-4358-AC1B-47AF58774162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEBEA867-4D94-4358-AC1B-47AF58774162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEBEA867-4D94-4358-AC1B-47AF58774162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622BCD4B-C1B3-4F79-AD64-3829F0E048AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622BCD4B-C1B3-4F79-AD64-3829F0E048AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622BCD4B-C1B3-4F79-AD64-3829F0E048AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622BCD4B-C1B3-4F79-AD64-3829F0E048AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
