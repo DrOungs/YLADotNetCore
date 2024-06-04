@@ -1,10 +1,10 @@
-﻿using System.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 
-namespace YLADotNetCore.RestApi
+namespace YLADotNetCore.PizzaApi
 {
-    internal static class ConnectionString
+    internal static class ConnectionStrings
     {
-        public static SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        public static SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
             DataSource = "DRAUNG",
             InitialCatalog = "DotNetTrainingBatch4",

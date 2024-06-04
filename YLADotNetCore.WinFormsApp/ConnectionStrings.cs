@@ -1,10 +1,10 @@
 ﻿using System.Data.SqlClient;
 
-namespace YLADotNetCore.RestApi
+namespace YLADotNetCore.WinFormsApp
 {
-    internal static class ConnectionString
+    public class ConnectionStrings
     {
-        public static SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        public static SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
             DataSource = "DRAUNG",
             InitialCatalog = "DotNetTrainingBatch4",

@@ -1,8 +1,8 @@
 ﻿using System.Data.SqlClient;
 
-namespace YLADotNetCore.RestApi
+namespace YLADotNetCore.RestApiWithNLayer
 {
-    internal static class ConnectionString
+    public class ConnectionStrings
     {
         public static SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
