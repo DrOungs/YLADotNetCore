@@ -5,3 +5,7 @@
 5) RestAPI(CRUD) - lecture
 6) TestingAPI(CRUD)- using Dapper Orm (Just Testing)
 7)  ASP.NET Core Web API Blog CRUD  (ado.net, dapper, using Shared services)
+8) ConsoleAppRestClientExamples,
+9) RestAPIWithNLayer,
+10) PizzaApi,
+11) WindowFormsApp
