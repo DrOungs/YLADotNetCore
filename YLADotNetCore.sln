@@ -18,11 +18,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLADotNetCore.Shared", "YLA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLADotNetCore.ConsoleAppRestClientExamples", "YLADotNetCore.ConsoleAppRestClientExamples\YLADotNetCore.ConsoleAppRestClientExamples.csproj", "{0BA4210C-0F4B-4F09-A804-D3B68D18F55B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.RestApiWithNLayer", "YLADotNetCore.RestApiWithNLayer\YLADotNetCore.RestApiWithNLayer.csproj", "{FF51E982-6958-4FF5-BE1D-95E25AB5854B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLADotNetCore.RestApiWithNLayer", "YLADotNetCore.RestApiWithNLayer\YLADotNetCore.RestApiWithNLayer.csproj", "{FF51E982-6958-4FF5-BE1D-95E25AB5854B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.PizzaApi", "YLADotNetCore.PizzaApi\YLADotNetCore.PizzaApi.csproj", "{73A9239A-D534-456D-8B91-139078821D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLADotNetCore.PizzaApi", "YLADotNetCore.PizzaApi\YLADotNetCore.PizzaApi.csproj", "{73A9239A-D534-456D-8B91-139078821D45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.WinFormsApp", "YLADotNetCore.WinFormsApp\YLADotNetCore.WinFormsApp.csproj", "{A6C7D1A3-A3B0-4053-BBC7-AE8580725117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLADotNetCore.WinFormsApp", "YLADotNetCore.WinFormsApp\YLADotNetCore.WinFormsApp.csproj", "{A6C7D1A3-A3B0-4053-BBC7-AE8580725117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.WinFormsAppSqlInjection", "YLADotNetCore.WinFormsAppSqlInjection\YLADotNetCore.WinFormsAppSqlInjection.csproj", "{30E409A1-E3F8-42C9-AA32-12E5F3D20CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.ConsoleAppHttpClient", "YLADotNetCore.ConsoleAppHttpClient\YLADotNetCore.ConsoleAppHttpClient.csproj", "{126C2102-DA78-41E7-9110-D2231EAF1781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLADotNetCore.ConsoleAppRefitExamples", "YLADotNetCore.ConsoleAppRefitExamples\YLADotNetCore.ConsoleAppRefitExamples.csproj", "{2A76D5F8-81E6-40CB-B6C4-52E8132E2E3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +68,18 @@ Global
 		{A6C7D1A3-A3B0-4053-BBC7-AE8580725117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C7D1A3-A3B0-4053-BBC7-AE8580725117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C7D1A3-A3B0-4053-BBC7-AE8580725117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E409A1-E3F8-42C9-AA32-12E5F3D20CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E409A1-E3F8-42C9-AA32-12E5F3D20CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E409A1-E3F8-42C9-AA32-12E5F3D20CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E409A1-E3F8-42C9-AA32-12E5F3D20CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126C2102-DA78-41E7-9110-D2231EAF1781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126C2102-DA78-41E7-9110-D2231EAF1781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126C2102-DA78-41E7-9110-D2231EAF1781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126C2102-DA78-41E7-9110-D2231EAF1781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A76D5F8-81E6-40CB-B6C4-52E8132E2E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A76D5F8-81E6-40CB-B6C4-52E8132E2E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A76D5F8-81E6-40CB-B6C4-52E8132E2E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A76D5F8-81E6-40CB-B6C4-52E8132E2E3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
