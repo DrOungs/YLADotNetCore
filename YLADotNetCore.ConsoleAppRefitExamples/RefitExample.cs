@@ -57,7 +57,7 @@ namespace YLADotNetCore.ConsoleAppRefitExamples
 
         private async Task CreateAsync(string title, string author, string content)
         {
-            BlogModel model = new BlogModel()
+            BlogModel model = new()
             {
                 BlogAuthor = author,
                 BlogTitle = title,
@@ -68,7 +68,7 @@ namespace YLADotNetCore.ConsoleAppRefitExamples
         }  
         private async Task UpdateAsync(int id,string title, string author, string content)
         {
-            BlogModel model = new BlogModel()
+            BlogModel model = new()
             {
                 BlogAuthor = author,
                 BlogTitle = title,
